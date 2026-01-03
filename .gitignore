@@ -11,3 +11,9 @@ wheels/
 
 # Docker
 .dockerignore
+
+# AWS Bedrock build artifacts
+.bedrock_agentcore/
+
+# Environment variables (contains secrets)
+.env
